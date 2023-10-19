@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Game Lv Slider</title>
+</head>
+
+<body>
+  <div id="pgContainer" class="page__container">
+    <div class="page__wrapper">
+      <div class="frame__container">
+        <div id="headerContainer" class="header__container">
+          <div class="header__wrapper">
+            <img src="./Assets/HEADER IMAGE.png" alt="header" />
+            <div class="title__wrapper waviy">
+              <span style="--i:1">S</span>
+              <span style="--i:2">E</span>
+              <span style="--i:3">L</span>
+              <span style="--i:4">E</span>
+              <span style="--i:5">C</span>
+              <span style="--i:6">T</span>
+              <span style="--i:7">G</span>
+              <span style="--i:8">A</span>
+              <span style="--i:9">M</span>
+              <span style="--i:10">E</span>
+           
+             </div>
+            
+          </div>
+
+
+        </div>
+        <div class="frame__wrapper">
+          <img class="frame__img" id="img-1" src="./Assets/NEWFRAME.png" alt="Image 3" />
+          <div class="slider__container">
+            <div class="slider__wrapper">
+              <div class=" slider-images__container slider-images__container--back">
+                <div class="slider-images__wrapper full--height">
+                  <div class="img__wrapper full--height">
+                    <img class="slider__img" id="img-2" src="./Assets/21700730.jpg" alt="Image 1" />
+                    <img class="slider__img" id="img-3" src="./Assets/22339747.jpg" alt="Image 2" />
+                    <img class="slider__img" id="img-1" src="./Assets/leaderboard.jpg" alt="Image 3" />
+                  </div>
+                </div>
+              </div>
+              <div class="slider-images__container slider-images__container--front">
+                <div class="slider-images__wrapper">
+                  <div class="img__wrapper">
+                    <img class="slider__img--front" id="img-2" src="./Assets/21700730.jpg" alt="Image 1" />
+                    <img class="slider__img--front" id="img-3" src="./Assets/22339747.jpg" alt="Image 2" />
+                    <img class="slider__img--front" id="img-1" src="./Assets/leaderboard.jpg" alt="Image 3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="navigation-button__container">
+            <div class="navigation-button__wrapper" onclick="plusDivs(-1)"><img id="img-1"
+                src="./Assets/LEFT BUTTON.png" alt="Image 1" /></div>
+            <div class="navigation-button__wrapper" onclick="plusDivs(+1)"><img id="img-1"
+                src="./Assets/RIGHT BUTTON.png" alt="Image 1" /></div>
+          </div>
+          <div class="play-button__container">
+            <div class="play-button__wrapper">
+              <img src="./Assets/PLAY BUTTON NEW.png" alt="Image 1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS Script -->
+    <script src="index.js"></script>
+</body>
+
+</html>
