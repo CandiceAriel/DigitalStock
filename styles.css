@@ -326,10 +326,10 @@ flex-wrap: wrap; */
   }
 
   .title__wrapper{
-    width: 59%;
+    width: 55%;
     top: 31%;
-    left: 21%;
-    font-size: 20px;
+    left: 23%;
+    font-size: 18px;
   }
 }
 
@@ -373,8 +373,8 @@ flex-wrap: wrap; */
   .title__wrapper{
     width: 64%;
     top: 28%;
-    left: 21%;
-    font-size: 19px;
+    left: 22%;
+    font-size: 18px;
   }
 }
 
